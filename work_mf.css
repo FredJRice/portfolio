@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    margin: 0;
+
+}
+h1,
+h2,
+h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:15px;
+}
+
+.navbar{
+    position: fixed;
+    left: 20px;
+    top: 35px;
+    font-size: 1.5em;
+    border-bottom: 3px solid red;
+}
+.section_photo{
+    /* border: 1px solid black; */
+    position: fixed;
+    top: 150px;
+    left: 20px;
+    height:470px;
+    width: 700px;
+}
+
+.section_photo img{
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+}
+.section_about{
+    /* border: 1px solid black; */
+    position: fixed;
+    top: 150px;
+    left: 750px;
+    height: 300px;
+    width: 400px;
+    padding: 20px;
+}

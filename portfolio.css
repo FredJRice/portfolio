@@ -22,14 +22,6 @@ h3{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin:15px;
 }
-.name{
-    position: fixed;
-    left: 0px;
-    top: 35px;
-    font-size: 1.5em;
-    border-bottom: 3px solid red;
-    margin-left: 40px;
-}
 .background{
     position: fixed;
     top: -1500px;
@@ -51,8 +43,16 @@ h3{
     border: 1px solid rgb(211, 208, 208);
     border-radius: 10px;
 }
+.name{
+    position: fixed;
+    left: 0px;
+    top: 35px;
+    font-size: 1.5em;
+    border-bottom: 3px solid red;
+    margin-left: 40px;
+}
 
-.section1{
+.sectionabout{
     display: flex;
     justify-content: center;
     height: 500px;
@@ -74,14 +74,14 @@ h3{
     z-index: -1;
     border-radius: 15px;
 }
-.section2{
+.sectionproject{
     display: flex;
     justify-content: center;
     /* background-color: antiquewhite; */
     margin: 100px 0;
     
 }
-.projects{
+.projectsbox{
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
@@ -94,8 +94,8 @@ h3{
     height: 300px;
     width: 300px;
     background-color: white;
-    margin: 10px;
     border: 2px solid black;
+    margin: 10px;
     border-radius: 15px;
     padding: 20px;
 }
