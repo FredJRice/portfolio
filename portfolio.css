@@ -1,9 +1,9 @@
 *{
     box-sizing: border-box;
 }
-html{
+/* html{
     scroll-behavior: smooth;
-}
+} */
 
 body{
     /* background-image: url(images/Sunflowers.jpg);
@@ -28,13 +28,6 @@ h1,h2,h3,h4,h5,h6{
     margin:15px;
 }
 .name{
-    color: red;
-    border: 1px solid white;
-    text-align: center;
-    border-radius: 15px;
-    padding: 5px;
-}
-.dropdown{
     color: red;
     border: 1px solid white;
     text-align: center;
@@ -140,7 +133,7 @@ h1,h2,h3,h4,h5,h6{
     padding: 20px;
     z-index: -1;
     border-radius: 15px;
-    margin: 0 100px;
+    margin: 0 30px;
 }
 .contact{
     background-color: white;
@@ -222,19 +215,22 @@ h1,h2,h3,h4,h5,h6{
 }
 
 @media screen and (max-width:500px){
-.sectioninfo{
+.sectioninfo,.sectionproject,.sectioncareer{
     flex-direction: column;
     }
+.info,.contact,.projectsbox,.careersbox{
+    height: 100%;
+    width:100%;
+}
 .dropdown{
-    visibility: visible;
+    display: initial;
 }
 .navbarleft{
-    display: initial;
+    display:initial;
 }
 .navbar{
     display: none;
 }
-
 }
 
 
