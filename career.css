@@ -47,5 +47,7 @@ img{
     height: 100%;
     margin: 0 50px;
     padding-left: 60px;
-    font-size: 1.3em;
+}
+p{
+    font-size: 28px;
 }

@@ -164,6 +164,13 @@ h1,h2,h3,h4,h5,h6{
     margin: 10px;
 }
 
+#one{
+    background-color:#ddd;
+}
+#two{
+    background-color:#aba0a0;
+}
+
 .project{
     display: flex;
     flex-direction: column;
@@ -188,6 +195,7 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
+    font-size: 1em;
     height:640px;
     width:960px;
     margin: 10px;
