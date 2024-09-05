@@ -134,7 +134,7 @@ h1,h2,h3,h4,h5,h6{
     padding: 20px;
     z-index: -1;
     border-radius: 15px;
-    margin: 0 30px;
+    margin: 10px 50px;
 }
 .contact{
     background-color: white;
@@ -142,12 +142,12 @@ h1,h2,h3,h4,h5,h6{
     height: 500px;
     width: 800px;
     color: black;
-    font-size: 2em;
-    text-align: left;
+    font-size: 1.5em;
+    text-align: center;
     padding: 20px;
     z-index: -1;
     border-radius: 15px;
-    margin: 0 30px;
+    margin: 10px 50px;
 }
 .sectionproject{
     display: flex;
