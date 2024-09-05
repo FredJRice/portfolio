@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: white;
@@ -9,27 +12,30 @@ body{
 }
 nav{
     background-color: white;
-    height:100px;
+    height:150px;
     width: 100%;
     position:fixed;
     top: 0;
     border-bottom: 1px solid black;
 }
 
-h1,
-h2,
-h3{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h1,h2,h3,h4,h5,h6{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3em;
     margin:15px;
 }
-.pnavbar a:link {
+.navbar a{
     color: black;
 }
 
 .pnavbar a:hover {
-    color: red;
+    color: rgb(213, 35, 35);
 }
-
+.pnavbar a:link{
+    text-decoration: none;
+}
 .pnavbar{
     display: flex;
     justify-content:center;
@@ -39,38 +45,86 @@ h3{
     color: black;
     background-color: white;
     margin: 10px;
-    border: 1px solid rgb(211, 208, 208);
+    /* border: 1px solid black; */
     border-radius: 10px;
+    padding: 5px;
+    text-u
 }
 
 .spacer{
     height: 100px;
     width: 100%;
 }
-.sectionabout{
+.sectioninfo{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     margin: 300px 0;
+    padding: 20px;
 }
-.about{
-    background-color: rgba(206, 222, 208, 0.522);
+
+.info{
+    background-color: white;
     opacity: 90%;
-    height: 400px;
-    width: 940px;
+    height: 600px;
+    width: 800px;
     color: black;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: left;
     padding: 20px;
     z-index: -1;
     border-radius: 15px;
+    margin: 0 10px;
+}
+.contact{
+    background-color: white;
+    opacity: 90%;
+    height: 600px;
+    width: 800px;
+    color: black;
+    font-size: 2em;
+    text-align: right;
+    padding: 20px;
+    z-index: -1;
+    border-radius: 15px;
+    margin: 0 10px;
 }
 .sectionproject{
     display: flex;
     justify-content: center;
-    margin: 300px 0;
+    margin: 600px 0;
     padding: 200px 0;
 }
 .projectsbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    height:640px;
+    width:960px;
+    margin: 10px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    font-size: 0.6em;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.sectioncareer{
+    display: flex;
+    justify-content: center;
+    margin: 600px 0;
+    padding: 200px 0;
+}
+.careersbox{
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
@@ -92,24 +146,6 @@ h3{
     border-radius: 15px;
     padding: 20px;
 }
-.contact{
-    display: flex;
-    justify-content: center;
-    margin: 300px 0;
-}
-
-.info{
-    background-color: rgba(206, 222, 208, 0.522);
-    opacity: 90%;
-    height: 400px;
-    width: 940px;
-    color: black;
-    font-size: 1.5em;
-    text-align: left;
-    padding: 20px;
-    z-index: -1;
-    border-radius: 15px;
-}
 
 .footer{
     position: fixed;
@@ -117,6 +153,15 @@ h3{
     left: 100px;
     margin: 10px;
     font-size: 2em;
+}
+
+@media screen and (max-width:500px){
+.sectioninfo{
+    flex-direction: column;
+    }
+.pnavbar{
+    color: white;
+}
 }
 
 
