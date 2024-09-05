@@ -6,13 +6,14 @@ html{
 }
 
 body{
-    background-color: white;
+    /* background-image: url(images/Sunflowers.jpg);
+    background-size: contain; */
     margin: 0;
 
 }
 nav{
     background-color: white;
-    height:150px;
+    height:180px;
     width: 100%;
     position:fixed;
     top: 0;
@@ -26,12 +27,30 @@ h1,h2,h3,h4,h5,h6{
     font-size: 3em;
     margin:15px;
 }
+.name{
+    color: red;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+}
+.menu{
+    color: red;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+}
+.name:hover{
+    color: black;
+    /* background-color:  rgba(147, 141, 141, 0.729); */
+}
 .navbar a{
     color: black;
 }
 
 .pnavbar a:hover {
-    color: rgb(213, 35, 35);
+    color: red;
 }
 .pnavbar a:link{
     text-decoration: none;
@@ -48,18 +67,26 @@ h1,h2,h3,h4,h5,h6{
     /* border: 1px solid black; */
     border-radius: 10px;
     padding: 5px;
-    text-u
+    visibility: visible;
 }
-
+.navmenu{
+    color: black;
+    background-color: white;
+    justify-items: right;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    visibility: visible;
+}
 .spacer{
-    height: 100px;
+    height: 200px;
     width: 100%;
 }
 .sectioninfo{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 300px 0;
+    margin: 50px 0;
     padding: 20px;
 }
 
@@ -74,7 +101,7 @@ h1,h2,h3,h4,h5,h6{
     padding: 20px;
     z-index: -1;
     border-radius: 15px;
-    margin: 0 10px;
+    margin: 0 100px;
 }
 .contact{
     background-color: white;
@@ -83,11 +110,11 @@ h1,h2,h3,h4,h5,h6{
     width: 800px;
     color: black;
     font-size: 2em;
-    text-align: right;
+    text-align: left;
     padding: 20px;
     z-index: -1;
     border-radius: 15px;
-    margin: 0 10px;
+    margin: 0 30px;
 }
 .sectionproject{
     display: flex;
@@ -159,9 +186,17 @@ h1,h2,h3,h4,h5,h6{
 .sectioninfo{
     flex-direction: column;
     }
-.pnavbar{
-    color: white;
+.navbar{
+    visibility: hidden;
 }
+.menu{
+    visibility: visible;
+}
+}
+@media screen and (min-width:500px){
+    .menu{
+        visibility: hidden;
+    }
 }
 
 
