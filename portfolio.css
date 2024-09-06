@@ -136,6 +136,9 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 15px;
     margin: 10px 50px;
 }
+.info p{
+    text-align: left;
+}
 .contact{
     background-color: white;
     opacity: 90%;
@@ -187,6 +190,9 @@ h1,h2,h3,h4,h5,h6{
     background-size: cover;
     background-position-y: -70px;
 }
+.projectsbox a:link{
+    text-decoration: none;
+}
 #two{
     background-image: url("images/donkey_kong_game.png");
     background-size: cover;
@@ -201,7 +207,7 @@ h1,h2,h3,h4,h5,h6{
     background-color: rgb(175, 9, 9)
 }
 #six{
-    background-color: rgb(223, 12, 12)
+    background-color: rgb(206, 8, 8)
 }
 .sectioncareer{
     display: flex;
