@@ -19,6 +19,7 @@ nav{
     position:fixed;
     top: 0;
     border-bottom: 1px solid black;
+    z-index: 1;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -132,7 +133,6 @@ h1,h2,h3,h4,h5,h6{
     font-size: 1.5em;
     text-align: center;
     padding: 20px;
-    z-index: -1;
     border-radius: 15px;
     margin: 10px 50px;
 }
@@ -145,7 +145,6 @@ h1,h2,h3,h4,h5,h6{
     font-size: 1.5em;
     text-align: center;
     padding: 20px;
-    z-index: -1;
     border-radius: 15px;
     margin: 10px 50px;
 }
@@ -207,8 +206,9 @@ h1,h2,h3,h4,h5,h6{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-height: 300px;
-    max-width: 300px;
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
     background-color: white;
     border: 2px solid black;
     margin: 10px;
@@ -225,7 +225,7 @@ h1,h2,h3,h4,h5,h6{
     left: 100px;
     margin: 10px;
     font-size: 2em;
-    z-index: -2;
+    z-index: -1;
 }
 
 @media screen and (max-width:768px){
