@@ -163,15 +163,6 @@ h1,h2,h3,h4,h5,h6{
     margin: 10px;
 }
 
-.project #one{
-    background-image: url("images/IMG_0362.jpg");
-    height: 300px;
-    width: 300px;
-
-}
-#two{
-    background-color:#aba0a0;
-}
 
 .project{
     display: flex;
@@ -179,15 +170,38 @@ h1,h2,h3,h4,h5,h6{
     align-items:center;
     justify-content: center;
     text-align: center;
-    font-size: 0.6em;
+    font-size: 1em;
+    text-shadow: -3px 3px rgb(56, 53, 53);
+    color:white;
     height: 300px;
     width: 300px;
-    background-color: white;
+    background-color: rgb(55, 51, 51);
     border: 2px solid black;
     margin: 10px;
     border-radius: 15px;
     padding: 20px;
     overflow:hidden;
+}
+#one{
+    background-image: url("./images/IMG_0362.jpg");
+    background-size: cover;
+    background-position-y: -70px;
+}
+#two{
+    background-image: url("images/donkey_kong_game.png");
+    background-size: cover;
+}
+#three{
+    background-color: rgb(84, 5, 5)
+}
+#four{
+    background-color:rgb(116, 5, 5)
+}
+#five{
+    background-color: rgb(175, 9, 9)
+}
+#six{
+    background-color: rgb(223, 12, 12)
 }
 .sectioncareer{
     display: flex;
